@@ -1,7 +1,7 @@
 .container__big-card {
   margin-left: 10px;
   margin-right: 10px;
-  width: 400px;
+  width: 600px;
   height: 500px;
 
   display: flex;
@@ -17,13 +17,22 @@
 
 .big-card__description {
   margin-top: 15px;
+
+}
+.big-card__description > p {
+width: 100%;
+text-align: justify;
+text-indent: 20px;
+
 }
 
 .big-card__description > p > a {
-  color: gray;
+  color: rgb(102, 102, 102);
+  align-content: space-around;
 }
 
 .big-card__photo > img {
   width: 100%;
   min-width: 400px;
 }
+
